@@ -1,2 +1,2 @@
-maxisix-susy-boilerplate
+maxisix-smacss-boilerplate
 =====================
