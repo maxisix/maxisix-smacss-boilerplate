@@ -1,0 +1,52 @@
+.l-header__top, .l-header__bottom {
+	width: 100%
+}
+
+
+.header__top, .header__bottom {
+	@include container(960px);
+}
+
+.logo {
+	@include span(3 at 1);
+}
+
+.nav {
+	@include span(9 at 4);
+}
+
+
+.l-header__bottom {
+	background: #323031;
+	color: #fff;
+}
+
+
+.header__bottom {
+
+	.title {
+		@include span(6);
+		@include push(3);
+		font-size: 58px;
+		text-align: center;
+	}
+
+	> h2 {
+		@include span(6);
+		@include push(3);
+		text-align: center;
+	}
+}
+
+.header__infos {
+	@include span(9);
+
+	> h3 {
+		font-size: 14px;
+	}
+
+	> p {
+		font-size: 12px
+	}
+
+}

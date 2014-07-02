@@ -28,12 +28,122 @@
 </head>
 <body>
 
+	
+
+
+	<header class="l-header">
+		
+		<div class="l-header__top">
+
+			<div class="header__top">
+				
+				<a class="logo" href="">
+					<img src="http://placehold.it/180x65" alt="">
+				</a>
+
+				<nav class="nav">
+					<a href="">aaaa</a>
+					<a href="">sss</a>
+					<a href="">ddd</a>
+				</nav>
+
+			</div>
+
+		</div>
+		
+
+		<div class="l-header__bottom">
+
+			<div class="header__bottom">
+				<h1 class="title">On veut prendre <br> votre pouls</h1>
+				<h2>Devenez membre du Forumde consultation</h2>
+
+				<div class="header__infos">
+					<h3>Influencez les decisions par vos opinions</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae, perspiciatis ut animi deserunt, iusto consectetur atque molestias, vitae, modi rerum eum dignissimos! Nihil vitae nesciunt mollitia, beatae numquam sint!</p>
+				</div>
+			</div>
+		
+		</div>
+
+	</header>
 
 
 
 
 
-	<script data-main="assets/js/app" src="assets/js/lib/require.js"></script>
+
+	<main class="l-main">
+		
+		<aside class="main__aside">
+			
+			<nav>
+				<a href="">aaa</a>
+				<a href="">aaa</a>
+				<a href="">aaa</a>
+				<a href="">aaa</a>
+				<a href="">aaa</a>
+				<a href="">aaa</a>
+			</nav>
+			
+		</aside>
+
+
+		<div class="main__articles">
+
+			<article class="article">
+				<h2>ASDFGHH</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam repellendus, accusamus magni, id dolores, praesentium itaque dolorem veniam beatae ab voluptatum, sint repudiandae. Officiis eveniet est ad ab in!</p>
+			</article>
+
+			<article class="article">
+				<h2>ASDFGHH</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam repellendus, accusamus magni, id dolores, praesentium itaque dolorem veniam beatae ab voluptatum, sint repudiandae. Officiis eveniet est ad ab in!</p>
+			</article>
+
+			<article class="article">
+				<h2>ASDFGHH</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam repellendus, accusamus magni, id dolores, praesentium itaque dolorem veniam beatae ab voluptatum, sint repudiandae. Officiis eveniet est ad ab in!</p>
+			</article>
+
+			<article class="article">
+				<h2>ASDFGHH</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam repellendus, accusamus magni, id dolores, praesentium itaque dolorem veniam beatae ab voluptatum, sint repudiandae. Officiis eveniet est ad ab in!</p>
+			</article>
+
+			<article class="article">
+				<h2>ASDFGHH</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam repellendus, accusamus magni, id dolores, praesentium itaque dolorem veniam beatae ab voluptatum, sint repudiandae. Officiis eveniet est ad ab in!</p>
+			</article>
+
+		</div>
+
+	</main>
+
+	
+
+
+
+	<div class="l-footer">
+
+		<footer class="footer">
+			
+			<nav class="footer__nav">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</nav>
+
+		</footer>
+
+	</div>
+
+
+
+
+
+
 
 	<!-- http://browser-update.org/ <=IE9 -->
 	<script type="text/javascript"> 

@@ -10,7 +10,8 @@
 
 /* TOOL */
 @import "tool/site-settings";
-@import "tool/breakpoint";
+@import "tool/susy/sass/susy";
+@import "tool/breakpoint-sass/stylesheets/breakpoint";
 // @import "tool/mixins";
 // @import "tool/functions";
 // @import "tool/helpers";
@@ -25,11 +26,13 @@
 
 /* LAYOUT */
 @import "layout/grid";
+@import "layout/header";
+@import "layout/nav";
+@import "layout/aside";
+@import "layout/main";
+@import "layout/footer";
 
 /* MODULE */
-@import "module/header";
-@import "module/nav";
-@import "module/footer";
 // @import "module/btn";
 // @import "module/icons";
 // @import "module/animations";

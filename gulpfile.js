@@ -21,7 +21,8 @@ FILE DESTINATIONS (RELATIVE TO ASSSETS FOLDER)
 *******************************************************************************/
 
 var target = {
-    sass_src : './assets/sass/*.scss',                  // all sass files
+	main_sass_src : './assets/sass/styles.scss',				
+    sass_src : './assets/sass/**/*.scss',                  // all sass files
     css_dest : './assets/css',                          // where to put minified css
     js_src : './assets/js/*.js',						// all js files
     js_dest : './assets/js/min',                        // where to put minified js
@@ -39,7 +40,7 @@ SASS TASK
 *******************************************************************************/
 
 gulp.task('styles', function() {
-	return gulp.src(target.sass_src)
+	return gulp.src(target.main_sass_src)
 		.pipe(sass({
 			noCache: true,
 			style: 'compressed'
